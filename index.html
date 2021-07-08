@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="loan-cal">
+            <h1>Savings Calculator</h1>
+            <form action="" id="form">
+                <div class="principal_box">
+                    <label for="principle">Savings Amount</label>
+                    <input type="number" id="principle">
+                </div>
+                <div class="year_box">
+                    <label for="year">Year</label>
+                    <input type="number" id="year">
+                </div>
+                <div class="rate_box">
+                    <label for="rate">Interest Rate</label>
+                    <input type="number" id="rate"><input type="button" class="class_btn" value="%" readonly>
+                </div>
+                <div class="submitBox">
+                    <input type="submit" id="calculate" value="Calculate">
+                </div>
+            </form>
+            <form action="" id="result_form">
+                <div class="interest_box">
+                    <label for="interest">Interest Amount</label>
+                    <input type="number" id="interest" readonly>
+                </div>
+                <div class="total_box">
+                    <label for="total">Total Amount</label>
+                    <input type="number" id="total" readonly>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
